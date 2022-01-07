@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    
 }
 
 nav {
@@ -15,21 +16,98 @@ nav {
 }
 
 #watch-section {
-    color: darkred;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(/sources/photoshop/design-assets/bgk-middle.png);
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+
+}
+.h2-video{
+    color: white;
+    margin-top: 10px;
 }
 
-#expertise-section {
-    color: fuchsia;
+
+#expertise-section{
+    height: 100vh;
+    
 }
+
+
+
+.expertise-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.expertise-header-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.expertise-header-title h3{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Georgia, serif ;
+    margin-bottom: 10px;
+
+}
+
+.expertise-header-title p{
+    color: gray;
+}
+
+.expertise-header-title hr{
+   align-self: center;
+   width: 60px;
+   margin-top: 10px;
+   margin-bottom: 15px;
+   color: gray;
+   
+}
+
+.expertise1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.expertise-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.expertise-content p{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+
 
 #team-section {
-    color: yellowgreen;
+    
 }
 
 #contact_client-section {
     color: lightsalmon;
 }
 
-footer {
+#footer {
     color: blueviolet;
 }
