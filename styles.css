@@ -2,9 +2,56 @@
     margin: 0;
 }
 
-nav {
-    color: red;
+.header {
+    background: url(/sources/photoshop/design-assets/bgk-header.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
 }
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0 ,0 ,0 ,);
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+}
+
+.navigation .logo {
+    padding: 15px;
+}
+
+.navigation ul {
+    text-align: center;
+    justify-content: space-between;
+    letter-spacing: 17px;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
+
+.header ul li a:hover {
+    background-color: #211b4385;
+    
+}
+
 
 #hero-section {
     color: blue;
